@@ -1,0 +1,7 @@
+{
+	"name": "AzureBlobStorage1",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/2b87dee0-a31b-419f-94ab-192627b1321d/resourceGroups/rg-sbx-dataanalyticsvc/providers/Microsoft.Storage/storageAccounts/storuscesbxdata",
+		"groupId": "blob"
+	}
+}
