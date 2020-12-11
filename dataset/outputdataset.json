@@ -1,0 +1,19 @@
+{
+	"name": "outputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azurestrgacctlinkedsvc",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "outfile.txt",
+				"folderPath": "output",
+				"container": "adfdemo"
+			}
+		}
+	}
+}
