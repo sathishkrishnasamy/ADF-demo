@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azdf-usce-sbx-data01"
+		},
+		"Azurestrgacctlinkedsvc_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_privateLinkResourceId": {
+			"value": "/subscriptions/2b87dee0-a31b-419f-94ab-192627b1321d/resourceGroups/rg-sbx-dataanalyticsvc/providers/Microsoft.Storage/storageAccounts/storuscesbxdata"
+		},
+		"AzureBlobStorage1_properties_groupId": {
+			"value": "blob"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
